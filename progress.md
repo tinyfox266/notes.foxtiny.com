@@ -126,14 +126,58 @@
 |-----------|-------|---------|------------|
 | -         | -     | -       | -          |
 
+### Phase 5: Deployment & Typography Optimization
+- **Status:** completed
+- **Started:** 2026-01-15 (continuation session)
+- **Completed:** 2026-01-15
+
+- Actions taken:
+  - 初始化 Git 仓库并推送到 GitHub
+  - 配置 GitHub Pages 部署（master 分支）
+  - 更新 2026-01-15 笔记内容
+  - **字体优化**：基础字体从 16px 增加到 18px
+  - **排版优化**：调整段落和列表间距
+    - 段落间距：2rem（明显分隔）
+    - 列表项间距：0.3rem（紧凑）
+    - 段落+列表紧邻：总共 0.6rem（体现逻辑关联）
+  - **中文字体优化**：使用 PingFang SC、Hiragino Sans GB、Microsoft YaHei 等优质中文字体
+  - 将排版规则文档化到 docs/01_principles.md
+
+- Files created/modified:
+  - assets/style.css (多次更新：字体大小、段落间距、列表间距、中文字体)
+  - docs/01_principles.md (添加详细的 Typography & Spacing Rules)
+  - notes/2026-01-15.md (更新笔记内容)
+  - index.html (重新生成)
+  - assets/search-index.json (重新生成)
+
+- Commits:
+  - Initial commit: Daily notes website with timeline and search
+  - Add project documentation and planning files
+  - Update daily note for 2026-01-15
+  - Improve typography and spacing for better readability
+  - Use better Chinese fonts for improved readability
+
+- Key achievements:
+  - ✅ 网站成功部署到 GitHub Pages
+  - ✅ 建立了清晰的排版规则并文档化
+  - ✅ 实现了 Markdown 结构到视觉层次的映射（无空行 = 紧凑间距）
+  - ✅ 优化了中文阅读体验（字体、字号、间距）
+  - ✅ 所有规则记录在案，便于长期维护
+
+- Design decisions:
+  - 段落间距 2rem：清晰区分不同思想
+  - 列表项间距 0.3rem：保持列表项的整体性
+  - p:has(+ul/ol) 模式：反映 Markdown 源文件结构
+  - 系统字体优先：性能优化，无需外部加载
+
 ## 5-Question Reboot Check
 | Question | Answer |
 |----------|--------|
-| Where am I? | Phase 4 完成 - 核心功能全部实现（笔记系统 + 搜索），准备部署 |
-| Where am I going? | Phase 5-7: 内容样式优化（可选） → 测试 → 部署到 GitHub Pages |
+| Where am I? | Phase 5 完成 - 网站已部署，排版优化完成 |
+| Where am I going? | 日常使用：每天写笔记 → 构建 → 提交推送 |
 | What's the goal? | 创建基于 GitHub Pages 的个人笔记知识库网站，支持 Markdown、时间排序、搜索 |
-| What have I learned? | 构建系统正常工作，搜索功能无需外部库即可实现，纯静态网站性能优秀 |
-| What have I done? | 完成核心基础设施、搜索功能、文档更新 - 网站已可用 |
+| What have I learned? | 排版规则需要反映 Markdown 结构；系统字体性能最优；CSS :has() 选择器很强大 |
+| What have I done? | 完成部署、排版优化、中文字体优化、规则文档化 - 网站已上线并优化完成 |
 
 ---
 *Update after completing each phase or encountering errors*
