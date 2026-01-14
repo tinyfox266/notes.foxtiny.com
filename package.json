@@ -1,0 +1,16 @@
+{
+  "name": "notes.foxtiny.com",
+  "version": "1.0.0",
+  "description": "A simple, long-term personal website for notes and thoughts",
+  "main": "build.js",
+  "scripts": {
+    "build": "node build.js",
+    "dev": "python3 -m http.server 8000"
+  },
+  "keywords": ["notes", "blog", "static-site"],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "marked": "^11.1.1"
+  }
+}

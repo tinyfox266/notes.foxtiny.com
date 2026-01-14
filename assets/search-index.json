@@ -1,0 +1,14 @@
+{
+  "notes": [
+    {
+      "date": "2026-01-15",
+      "content": "# 2026-01-15\n\n继续完善网站构建流程。\n\n## 今天完成的工作\n\n- ✅ 创建 `build.js` 构建脚本\n- ✅ 安装 marked.js 依赖\n- ✅ 设计时间线样式\n- ✅ 测试构建流程\n\n## 学习笔记\n\n### Markdown 支持测试\n\n**粗体文本** 和 *斜体文本*\n\n代码示例：\n\n```javascript\nfunction hello() {\n  console.log('Hello, World!');\n}\n```\n\n列表测试：\n- 项目 1\n- 项目 2\n- 项目 3\n\n> 这是一个引用块\n> 可以跨多行\n\n---\n\n晚上准备测试部署到 GitHub Pages。\n",
+      "excerpt": "# 2026-01-15  继续完善网站构建流程。  ## 今天完成的工作  - ✅ 创建 `build.js` 构建脚本 - ✅ 安装 marked.js 依赖 - ✅ 设计时间线样式 - ✅ 测试构建流程  ## 学习笔记  ### Markdown 支持测试  **粗体文本** 和 *斜体文本*  代码示例：  ```javascript function hello() {   conso"
+    },
+    {
+      "date": "2026-01-14",
+      "content": "# 2026-01-14\n\n今天开始搭建个人笔记网站 notes.foxtiny.com。\n\n## 技术选型\n\n- **静态网站生成器**：自己写的简单构建脚本\n- **Markdown 解析**：marked.js\n- **托管平台**：GitHub Pages\n- **样式**：纯 CSS，极简主义\n\n## 设计原则\n\n1. 简单、快速、可读\n2. 内容优先\n3. 无重型框架\n4. 长期可维护\n\n---\n\n下午完成了架构设计，确定使用单页面时间线形式展示所有笔记。\n",
+      "excerpt": "# 2026-01-14  今天开始搭建个人笔记网站 notes.foxtiny.com。  ## 技术选型  - **静态网站生成器**：自己写的简单构建脚本 - **Markdown 解析**：marked.js - **托管平台**：GitHub Pages - **样式**：纯 CSS，极简主义  ## 设计原则  1. 简单、快速、可读 2. 内容优先 3. 无重型框架 4. 长期可维护"
+    }
+  ]
+}
